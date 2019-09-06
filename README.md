@@ -1,4 +1,5 @@
 # bronevik-test
+<B>Script work only in Debian!<b><br>
 This is simple scripts for deploy several servers.<br><br>
 
 <b>What this script do:</b><br>
