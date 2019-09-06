@@ -1,0 +1,12 @@
+
+# What user to create
+export USER='user1'
+
+# Servers root password
+export SERVER_PASSWORD='S0mePassW0rd'
+
+# Server name
+export SERVER_NAME='server'
+
+# Count of servers (like server1 server2 etc..)
+export SERVER_COUNT='2'
