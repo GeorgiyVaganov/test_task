@@ -33,7 +33,7 @@ This is simple scripts for deploy several servers.<br><br>
 <b>Installation:</b>
 <ul>
  <li>Unpack all files to some folder on master server;</li>
- <li>Edit <i>env</i> file as you need;</li>
+ <li>Edit <i>vars</i> file as you need;</li>
  <li>Run <i>source vars</i> to export variables;</li>
  <li>Make Install.sh executable by doing <i>chmod +x Install.sh</i>;</li>
   <li>run <i>Install.sh</i> and have fun</i>
