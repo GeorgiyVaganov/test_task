@@ -61,7 +61,7 @@ while true; do
 done
 
 i=1
-while (( i<=${SERVER_COUNT} )); do
+while (( $i<=${SERVER_COUNT} )); do
   sshpass -p${SERVER_PASSWORD} $SCP_CMD /home/user1/.ssh/id_rsa.pub root@${SERVER_NAME}${i}:/tmp/.
   sshpass -p${SERVER_PASSWORD} $SCP_CMD `pwd`/prepare_server root@${SERVER_NAME}${i}:/root/prepare_server.sh
   sshpass -p${SERVER_PASSWORD} $SSH_CMD root@${SERVER_NAME}${i} "/bin/bash /root/prepare_server.sh" &
